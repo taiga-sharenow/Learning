@@ -3,6 +3,7 @@
     tipo primitivo e todas as informações possíveis sobre ele.
 """
 valor = input('Digite um valor: ')
+
 print(f'O tipo primitivo desse valor é , \033[4;34m{type(valor)}\033[m')
 print(f'Só tem espaço? \033[4;34m{valor.isspace()}\033[m')
 print(f'É um número? \033[4;34m{valor.isnumeric()}\033[m')
